@@ -101,11 +101,11 @@
 .call-main {
   background-color: #3882F6;
   display: flex;
+  justify-content: center;
 }
 
 .call {
   color: white;
-  margin-left: 60px;
 }
 
 .button button {
@@ -116,4 +116,14 @@
   color: white;
   margin-top: 40px;
   margin-left: 140px;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  background-color: #1F2937;
+  color: white;
+  margin-top: 100px;
+  padding: 50px;
 }
