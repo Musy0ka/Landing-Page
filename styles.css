@@ -95,3 +95,25 @@
 .quote p {
   padding-top: 30px;
 }
+
+/* Call to action styles */
+
+.call-main {
+  background-color: #3882F6;
+  display: flex;
+}
+
+.call {
+  color: white;
+  margin-left: 60px;
+}
+
+.button button {
+  border: 3px solid white;
+  background-color: #3882F6;
+  border-radius: 6px;
+  width: 90px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 140px;
+}
