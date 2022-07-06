@@ -58,3 +58,23 @@
   margin-left: 60px;
   border-radius: 6px;
 }
+
+/* more info section styling */
+.info {
+  background-color: beige;
+}
+
+.info .cars {
+  display: flex;
+  gap: 20px;
+}
+
+.cars div img{
+  width: 200px;
+  height: 200px;
+}
+
+.info #p p {
+  text-align: center;
+  font-size: 30px;
+}
