@@ -1,129 +1,144 @@
-/* Nav bar styles */
-.main {
-  background-color: #1F2937;
-  padding-bottom: 50px;
+* {
+  font-family: verdana;
+  margin: 0;
 }
 
-.nav-bar nav ul {
-  display: flex;
-  color: white;
-  list-style: none;
-  gap: 20px;
-  justify-content: end;
-  padding-right: 70px;
+body {
+  background: #eee;
 }
 
-.nav-bar nav ul li {
-  margin-top: -60px;
+.wrapper {
+  background: #1F2937;
+  height: 300px;
 }
 
-.nav-bar img {
-  width: 100px;
-  height: 60px;
-  margin-left: 60px;
-  margin-top: 30px;
-}
-
-/* .nav-bar nav {
-  margin-top: 1px;
-} */
-
-/* Header content styles */
-
+/* Nav Bar and Top Content Styling */
 .header {
   display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 100px;
 }
 
-.header-content {
+.header-logo {
   color: white;
-  margin-left: 60px;
 }
 
-.header-content h1 {
-  font-size: 40px;
-}
-
-.header-content p {
-  font-size: 15px;
-}
-
-.header img {
-  width: 300px;
-  height: 200px;
-}
-
-.main button {
-  background-color: #3882F6;
-  color: white;
-  margin-left: 60px;
-  border-radius: 6px;
-}
-
-/* more info section styling */
-.info {
-  background-color: beige;
-}
-
-.info .cars {
+.wrapper nav ul {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+  list-style-type: none;
 }
 
-.cars div img{
-  width: 200px;
-  height: 200px;
+/* .wrapper nav ul li {
+  font-style: none;
+} */
+
+.wrapper nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-.info #p p {
+/* Top content styling */
+.top-content {
+  display: flex;
+  border: 2px solid blue;
+  padding-left: 80px;
+  padding-right: 100px;
+  margin-top: 40px;
+}
+.top-content div {
+  color: white;
+}
+
+.top-content div img {
+  border: 2px solid green;
+}
+
+.top-content div button {
+  background: rgb(0, 0, 255);
+  color: white;
+  font-weight: 1000;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+/* More info section styling */
+
+.info h2{
   text-align: center;
-  font-size: 30px;
 }
 
-/* Quote styles */
-.main-quote {
-  background-color: lightgray;
+.display {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Random quote section */
+.random {
+  margin-top: 100px;
+  background: lightgray;
+  height: 200px;
+  text-align: center;  
+}
+
+#p p{
+  padding-top: 40px;
 }
 
 .author p {
-  text-align: end;
+  text-align: center;
+  padding-left: 270px;
+  margin-top: 20px;
 }
 
-.main-quote div {
-  margin: 100px;
-}
+/* Call back styles */
+/* .main {
+  border: 2px solid green;
+  background: orange;
+} */
 
-.quote p {
-  padding-top: 30px;
-}
-
-/* Call to action styles */
-
-.call-main {
-  background-color: #3882F6;
+.sub { 
   display: flex;
+  background: #3882F6;
+  width: 700px;
+  height: 100px;
+  margin: 40px;
   justify-content: center;
 }
 
-.call {
-  color: white;
+.sub div p {
+  margin-top: 20px;
+  color: #eee;
 }
 
-.button button {
-  border: 3px solid white;
-  background-color: #3882F6;
-  border-radius: 6px;
-  width: 90px;
-  color: white;
+#button button {
+  background: #3882F6;
+  border: 1px solid white;
+  color: #eee;
+  font-weight: 900;
+  border-radius: 7px;
+  width: 80px;
+  height: 30px;
   margin-top: 40px;
-  margin-left: 140px;
+  margin-left: 40px;
 }
 
-/* footer */
+/* Footer */
 
 .footer {
+  background: #1F2937;
+  height: 80px;
+}
+
+.footer div p {
+  color: #eee;
   text-align: center;
-  background-color: #1F2937;
-  color: white;
-  margin-top: 100px;
-  padding: 50px;
+  border: 2px green solid;
+  padding-top: 35px;
 }
