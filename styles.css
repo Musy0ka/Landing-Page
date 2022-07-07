@@ -8,7 +8,7 @@ body {
 
 .wrapper {
   background: #1F2937;
-  height: 500px;
+  height: 600px;
 }
 
 /* Nav Bar and Top Content Styling */
@@ -43,12 +43,16 @@ body {
 /* Top content styling */
 .top-content {
   display: flex;
-  border: 2px solid blue;
   height: 300px;
   padding-left: 200px;
   padding-right: 100px;
   margin-top: 100px;
 }
+
+.top-content .left .image{
+  margin-left: 60px;
+}
+
 .top-content div {
   color: white;
 }
@@ -61,10 +65,13 @@ body {
   font-size: 15px;
 }
 
-.top-content div img {
-  border: 2px solid green;
-  width: 200px;
-  margin-left: 200px;
+.image {
+  background: lightslategray;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding-left: 90px;
 }
 
 .top-content div button {
@@ -83,10 +90,21 @@ body {
   text-align: center;
 }
 
+.display div p{
+  text-align: center;
+}
+
 .display {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 50px;
+}
+
+.square {
+  border: 3px solid blue;
+  height: 100px;
+  width: 100px;
+  border-radius: 6px;
 }
 
 /* Random quote section */
@@ -120,6 +138,7 @@ body {
   height: 100px;
   margin: 40px;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .sub div p {
@@ -149,6 +168,5 @@ body {
 .footer div p {
   color: #eee;
   text-align: center;
-  border: 2px green solid;
   padding-top: 35px;
 }
